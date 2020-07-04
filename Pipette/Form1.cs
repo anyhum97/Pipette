@@ -47,7 +47,7 @@ namespace Pipette
 				{
 					if(dx > -14)
 					{
-						dx = dx-1;
+						--dx;
 					}
 					
 					DrawFrame();
