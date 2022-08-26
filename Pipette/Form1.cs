@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
+using System.Text;
 
 namespace Pipette
 {
@@ -182,7 +177,7 @@ namespace Pipette
 							{
 								Canvas.SetPixel(i*8+z, j*8+t, color);
 							}
-						}						
+						}
 					}
 				}
 
@@ -235,3 +230,4 @@ namespace Pipette
 		}
 	}
 }
+
